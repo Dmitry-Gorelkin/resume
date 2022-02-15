@@ -3,10 +3,10 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"rzWj":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.refs=void 0;const e={nameMain:document.querySelector(".js-main-name"),nameSidebar:document.querySelector(".js-sidebar-name")};exports.refs=e;
 },{}],"pOFY":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=s;var e=require("../base/refs");function s(s){if(s.target.outerWidth>767)return e.refs.nameMain.classList.remove("hidden"),void e.refs.nameSidebar.classList.add("hidden");e.refs.nameMain.classList.add("hidden"),e.refs.nameSidebar.classList.remove("hidden")}
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=s;var e=require("../base/refs");function s(s){if(s.target.outerWidth>=768)return e.refs.nameMain.classList.remove("hidden"),void e.refs.nameSidebar.classList.add("hidden");e.refs.nameMain.classList.add("hidden"),e.refs.nameSidebar.classList.remove("hidden")}
 },{"../base/refs":"rzWj"}],"LPK7":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=r;var e=t(require("../listeners/onWidth"));function t(e){return e&&e.__esModule?e:{default:e}}function r(){window.addEventListener("resize",e.default)}
 },{"../listeners/onWidth":"pOFY"}],"Focm":[function(require,module,exports) {
-"use strict";require("./sass/main.scss");var e=s(require("./js/base/eventListeners"));function s(e){return e&&e.__esModule?e:{default:e}}function r(){(0,e.default)()}r();
-},{"./sass/main.scss":"clu1","./js/base/eventListeners":"LPK7"}]},{},["Focm"], null)
-//# sourceMappingURL=/resume/src.453c99be.js.map
+"use strict";require("./sass/main.scss");var e=require("./js/base/refs"),s=i(require("./js/base/eventListeners"));function i(e){return e&&e.__esModule?e:{default:e}}function n(){(0,s.default)(),r()}function r(){if(window.screen.width>=768)return e.refs.nameMain.classList.remove("hidden"),void e.refs.nameSidebar.classList.add("hidden");e.refs.nameMain.classList.add("hidden"),e.refs.nameSidebar.classList.remove("hidden")}n();
+},{"./sass/main.scss":"clu1","./js/base/refs":"rzWj","./js/base/eventListeners":"LPK7"}]},{},["Focm"], null)
+//# sourceMappingURL=/resume/src.e92f1759.js.map

@@ -36,6 +36,13 @@
 }
 
 .main-title {
+  padding: 5px;
   margin: 0 auto;
+
+  display: block;
   background-color: $background-color-sidebar;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $accent-color;
 }

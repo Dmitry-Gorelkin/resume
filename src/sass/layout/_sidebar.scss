@@ -1,0 +1,42 @@
+.sidebar-container {
+  width: 100%;
+  background-color: $background-color-sidebar;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: $other-color;
+  //   padding: 10px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-left: 15px;
+    padding-right: 15px;
+    // padding: 15px;
+  }
+}
+
+.sidebar-section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.sidebar-title {
+  margin: 0 auto;
+  color: $accent-color;
+}

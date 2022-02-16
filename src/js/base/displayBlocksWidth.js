@@ -1,7 +1,7 @@
-import { refs } from '../base/refs';
+import { refs } from './refs';
 
-export default function onWidth(e) {
-  if (e.target.outerWidth >= 768) {
+export default function displayBlocksWidth() {
+  if (window.screen.width >= 768) {
     refs.nameMain.classList.remove('hidden');
     refs.nameSidebar.classList.add('hidden');
     refs.languageSidebar.classList.remove('hidden');

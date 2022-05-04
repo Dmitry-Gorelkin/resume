@@ -1,8 +1,8 @@
 .sidebar-container {
   width: 100%;
   background-color: $background-color-sidebar;
-  padding-left: 10px;
-  padding-right: 10px;
+  // padding-left: 10px;
+  // padding-right: 10px;
   color: $other-basic-color;
   //   padding: 10px;
 
@@ -14,13 +14,42 @@
   }
 
   @media screen and (min-width: 1200px) {
-    padding-left: 15px;
-    padding-right: 15px;
+    // padding-left: 15px;
+    // padding-right: 15px;
     // padding: 15px;
   }
 }
 
 .sidebar-section {
+  // padding-top: 15px;
+  // padding-bottom: 15px;
+
+  // padding-left: 10px;
+  // padding-right: 10px;
+
+  padding: 15px 10px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    // padding-top: 25px;
+    // padding-bottom: 25px;
+
+    // padding-left: 15px;
+    // padding-right: 15px;
+
+    padding: 25px 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.sidebar-section-img {
+  display: block;
+  width: 100%;
+
   padding-top: 15px;
   padding-bottom: 15px;
 

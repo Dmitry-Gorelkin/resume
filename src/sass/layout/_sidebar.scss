@@ -3,7 +3,7 @@
   background-color: $background-color-sidebar;
   padding-left: 10px;
   padding-right: 10px;
-  color: $other-color;
+  color: $other-basic-color;
   //   padding: 10px;
 
   @media screen and (min-width: 480px) {
@@ -42,5 +42,5 @@
 }
 
 .sidebar-link {
-  color: $other-color;
+  color: $other-basic-color;
 }

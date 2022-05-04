@@ -63,12 +63,12 @@
 }
 
 .main-project-link {
-  color: $accent-color;
+  color: $other-accent-color;
   cursor: pointer;
 
   &:hover,
   &:focus {
-    color: $other-color;
-    background-color: $accent-color;
+    color: $accent-color;
+    background-color: $background-color-sidebar;
   }
 }

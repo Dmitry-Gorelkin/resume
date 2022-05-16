@@ -35,7 +35,28 @@
   }
 }
 
-.title {
+.main-paragraph {
+  padding: 5px;
+  margin: 0 auto 10px auto;
+
+  display: block;
+  background-color: $background-color-sidebar;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $accent-color;
+}
+
+.text-accent {
+  color: $other-accent-color;
+}
+
+/* Hero */
+
+.hero-section {
+}
+
+.hero-title {
   font-size: 3em;
 
   @media screen and (min-width: 480px) {
@@ -50,19 +71,24 @@
   }
 }
 
-.main-title {
-  padding: 5px;
-  margin: 0 auto 10px auto;
-
-  display: block;
-  background-color: $background-color-sidebar;
-
-  text-align: center;
-  text-transform: uppercase;
-  color: $accent-color;
+.hero-text {
 }
 
-.main-project-link {
+/* Projects */
+
+.projects-section {
+}
+
+.projects-title {
+}
+
+.projects-list {
+}
+
+.projects-item {
+}
+
+.project-link {
   color: $other-accent-color;
   cursor: pointer;
 
@@ -73,6 +99,48 @@
   }
 }
 
-.text-accent {
-  color: $other-accent-color;
+/* Education */
+
+.education-section {
+}
+
+.education-title {
+}
+
+.education-institute {
+}
+
+.education-institute__title {
+}
+
+.education-institute__speciality {
+}
+
+.education-institute__time {
+}
+
+/* Work Experience */
+
+.work-section {
+}
+
+.work-title {
+}
+
+.work-company {
+}
+
+.work-company__position {
+}
+
+.work-company__title {
+}
+
+.work-company__time {
+}
+
+.work-company__list {
+}
+
+.work-company__item {
 }

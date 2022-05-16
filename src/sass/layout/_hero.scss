@@ -20,15 +20,15 @@
 }
 
 .main-section {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   @media screen and (min-width: 480px) {
   }
 
   @media screen and (min-width: 768px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -107,6 +107,27 @@
 .education-title {
 }
 
+.education-container {
+  // padding-left: 5px;
+
+  // padding-top: 5px;
+  // padding-bottom: 5px;
+
+  padding: 5px 0 5px 5px;
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    // padding-top: 10px;
+    // padding-bottom: 10px;
+
+    padding: 10px 0 10px 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
 .education-institute {
   color: $complementary-color;
 }
@@ -162,6 +183,19 @@
 }
 
 .work-title {
+}
+
+.work-container {
+  padding-left: 5px;
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-company {

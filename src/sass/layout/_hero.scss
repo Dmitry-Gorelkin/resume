@@ -83,20 +83,69 @@
 }
 
 .projects-list {
+  padding: 5px 20px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding: 10px 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .projects-item {
+  margin-bottom: 5px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .project-link {
+  display: flex;
+  justify-content: space-between;
+
   color: $other-accent-color;
   cursor: pointer;
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-    background-color: $background-color-sidebar;
-  }
+  // &:hover,
+  // &:focus {
+  //   color: $accent-color;
+  //   background-color: $background-color-sidebar;
+  // }
+}
+
+.project-link__name,
+.project-link__stack {
+  display: block;
+}
+
+.project-link__dots {
+  display: block;
+
+  flex: 1 0;
+  border-bottom: 1px dotted $other-accent-color;
+  height: 1em;
+  margin: 0 0.4em;
+
+  // @media screen and (min-width: 480px) {
+  // }
+
+  // @media screen and (min-width: 768px) {
+  //   border-bottom: 2px dotted $other-accent-color;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  // }
 }
 
 /* Education */
@@ -108,20 +157,13 @@
 }
 
 .education-container {
-  // padding-left: 5px;
+  padding: 5px 0 0 5px;
 
-  // padding-top: 5px;
-  // padding-bottom: 5px;
-
-  padding: 5px 0 5px 5px;
   @media screen and (min-width: 480px) {
   }
 
   @media screen and (min-width: 768px) {
-    // padding-top: 10px;
-    // padding-bottom: 10px;
-
-    padding: 10px 0 10px 10px;
+    padding: 10px 0 0 10px;
   }
 
   @media screen and (min-width: 1200px) {

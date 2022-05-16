@@ -108,15 +108,52 @@
 }
 
 .education-institute {
+  color: $complementary-color;
 }
 
 .education-institute__title {
+  margin-bottom: 5px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .education-institute__speciality {
+  margin-bottom: 5px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .education-institute__time {
+  margin-bottom: 5px;
+
+  font-style: italic;
+  color: $other-complementary-color;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 /* Work Experience */
@@ -128,18 +165,99 @@
 }
 
 .work-company {
-}
+  padding-top: 5px;
+  padding-bottom: 5px;
 
-.work-company__position {
+  color: $complementary-color;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-company__title {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 5px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.work-company__title--position {
+  display: block;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    display: inline;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.work-company__title--accint {
+  display: block;
+  color: $other-accent-color;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    display: inline;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-company__time {
+  margin-bottom: 5px;
+
+  font-style: italic;
+  color: $other-complementary-color;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-company__list {
+  padding-left: 15px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-left: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
 }
 
 .work-company__item {

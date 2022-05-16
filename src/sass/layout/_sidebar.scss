@@ -1,10 +1,8 @@
 .sidebar-container {
   width: 100%;
   background-color: $background-color-sidebar;
-  // padding-left: 10px;
-  // padding-right: 10px;
+
   color: $other-basic-color;
-  //   padding: 10px;
 
   @media screen and (min-width: 480px) {
   }
@@ -14,9 +12,6 @@
   }
 
   @media screen and (min-width: 1200px) {
-    // padding-left: 15px;
-    // padding-right: 15px;
-    // padding: 15px;
   }
 }
 
@@ -28,6 +23,22 @@
 
   @media screen and (min-width: 768px) {
     padding: 25px 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+  }
+}
+
+.sidebar-title {
+  color: $accent-color;
+
+  margin-bottom: 5px;
+
+  @media screen and (min-width: 480px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -59,83 +70,9 @@
   }
 }
 
-.sidebar-poto__img {
-}
-
 /* Name */
-
-.sidebar-name__section {
-}
 
 .sidebar-name__title {
   margin: 0 auto 10px auto;
   color: $accent-color;
-}
-
-.sidebar-name__text {
-}
-
-/* Contacts */
-
-.sidebar-contacts__section {
-}
-
-.sidebar-contacts__adress {
-}
-
-.sidebar-contacts__title {
-}
-
-.sidebar-contacts__list {
-}
-
-.sidebar-contacts__item {
-}
-
-.sidebar-contacts__text {
-}
-
-.sidebar-contacts__link {
-}
-
-/* Tech Skills */
-
-.sidebar-tech-skills__ {
-}
-
-.sidebar-tech-skills__title {
-}
-
-.sidebar-tech-skills__list {
-}
-
-.sidebar-tech-skills__item {
-}
-
-/* Languages */
-
-.sidebar-languages__section {
-}
-
-.sidebar-languages__title {
-}
-
-.sidebar-languages__list {
-}
-
-.sidebar-languages__item {
-}
-
-/* Hobby */
-
-.sidebar-hobby__section {
-}
-
-.sidebar-hobby__title {
-}
-
-.sidebar-hobby__list {
-}
-
-.sidebar-hobby__item {
 }
